@@ -1,0 +1,16 @@
+// translations/es.json
+
+{
+    "welcome": "¡Bienvenido a nuestra aplicación!",
+    "login": {
+      "title": "Iniciar sesión",
+      "username": "Nombre de usuario",
+      "password": "Contraseña",
+      "submit": "Enviar"
+    },
+    "errors": {
+      "required": "Este campo es obligatorio.",
+      "invalid": "Entrada inválida."
+    }
+  }
+  

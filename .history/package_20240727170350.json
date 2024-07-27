@@ -1,0 +1,10 @@
+{ "dependencies": { "@storybook/cli": "^8.2.6", "@storybook/html": "^8.2.6" }, "name": "flappy-bird", "module": "index.js", "type": "module", "devDependencies": {
+  "@types/bun": "latest"
+}, "peerDependencies": {
+  "typescri,  
+  "scripts": {
+    "storybook": "start-storybook -p 6006"
+  }
+
+
+}

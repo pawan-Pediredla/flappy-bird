@@ -1,0 +1,38 @@
+# Define variables
+BROWSER = google-chrome # You can change this to your preferred browser or remove if unnecessary
+
+# Default target
+all: build
+
+# Build the project using Webpack
+build:
+	@echo "Building the project..."
+	yarn run build
+
+# Start the development server
+start:
+	@echo "Starting development server..."
+	yarn start
+
+# Run Storybook
+storybook:
+	@echo "Starting Storybook..."
+	yarn storybook
+
+# Format code using Prettier
+format:
+	@echo "Formatting code..."
+	yarn format
+
+# Clean the dist directory
+clean:
+	@echo "Cleaning up..."
+	rm -rf dist
+
+# Open the application in the browser
+open:
+	@echo "Opening application in browser..."
+	$(BROWSER) http://localhost:9000
+
+# Phony targets are not actual files
+.PHONY: all build start storybook format clean open

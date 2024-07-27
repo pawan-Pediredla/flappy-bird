@@ -1,0 +1,15 @@
+
+{
+    "welcome": "Welcome to our application!",
+    "login": {
+      "title": "Login",
+      "username": "Username",
+      "password": "Password",
+      "submit": "Submit"
+    },
+    "errors": {
+      "required": "This field is required.",
+      "invalid": "Invalid input."
+    }
+  }
+  

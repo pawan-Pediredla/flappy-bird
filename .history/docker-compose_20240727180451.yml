@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  web:
+    image: node:14
+    container_name: flappy-bird-web
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "9000:9000"
+    command: npm start
+    environment:
+      - NODE_ENV=development
+
+  # If you have additional services like databases, you can add them here
+  # e.g., a database service
+  # database:
+  #   image: postgres:latest
+  #   container_name: flappy-bird-db
+  #   environment:
+  #     POSTGRES_USER: example
+  #     POSTGRES_PASSWORD: example
+  #     POSTGRES_DB: example
+  #   ports:
+  #     - "5432:5432"

@@ -1,0 +1,16 @@
+// translations/fr.json
+
+{
+    "welcome": "Bienvenue dans notre application!",
+    "login": {
+      "title": "Connexion",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "submit": "Soumettre"
+    },
+    "errors": {
+      "required": "Ce champ est requis.",
+      "invalid": "Entrée invalide."
+    }
+  }
+  
