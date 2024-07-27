@@ -1,15 +1,1 @@
-# flappy-bird
-
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.js
-```
-
-This project was created using `bun init` in bun v1.1.9. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+![Screenshot (635)](https://github.com/user-attachments/assets/87212a19-e1cd-4df1-91b2-f56b06aa29d9)
